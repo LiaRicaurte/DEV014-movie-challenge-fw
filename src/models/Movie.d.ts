@@ -1,4 +1,4 @@
-export interface Movie {
+/*export interface Movie {
     id: number;
     title: string;
     releaseDate: string;
@@ -7,4 +7,12 @@ export interface Movie {
     runTime: string;
     overview: string;
     rating: number;
+}*/
+
+export type Movie = {
+    id: number;
+    title: string;
+    releaseDate: string;
+    posterUrl: string;
 }
+
