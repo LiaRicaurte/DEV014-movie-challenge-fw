@@ -2,7 +2,7 @@ import { formatMovie } from "./transformers"
 
 describe('casos de prueba de formatMovie', () => {
     it('formatMovie transformacion exitosa', () => {
-        //1. preparar
+        //1. preparar condiciones
         const apiMovieExample = {
             "id": 1022789,
             "original_title": "Inside Out 2",

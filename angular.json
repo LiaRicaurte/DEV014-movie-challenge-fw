@@ -20,7 +20,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/dev014-movie-challenge-sf",
+            "outputPath": "dist/dev014-movie-challenge-fw",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -75,7 +75,7 @@
               "browserTarget": "Dev014-Movie-challenge-sf:build:production"
             },
             "development": {
-              "browserTarget": "Dev014-Movie-challenge-sf:build:development"
+              "browserTarget": "Dev014-Movie-challenge-fw:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -83,7 +83,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "Dev014-Movie-challenge-sf:build"
+            "browserTarget": "Dev014-Movie-challenge-fw:build"
           }
         },
         "test": {
